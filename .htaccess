@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)* [NC]
+RewriteRule \.(css|js)$ - [NC,F,L]
